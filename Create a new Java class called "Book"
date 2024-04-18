@@ -1,1 +1,40 @@
+public class Book {
+    String title;
+    String author;
+    int yearPublished;
+    double price;
+
+    public Book(String title, String author, int yearPublished, double price) {
+        this.title = title;
+        this.author = author;
+        this.yearPublished = yearPublished;
+        this.price = price;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Book book1 = new Book("Women of Good Fortune", "Sophie Wan", 2024, php 1,175);
+        Book book2 = new Book("The Only Constant", "Najwa Sebian", 2021, php 1,050);
+        Book book3 = new Book("Frankeinstein", "Mary Shelly", 1990, ($10.75);
+
+        System.out.println("Book 1:");
+        System.out.println("Title: " + book1.title);
+        System.out.println("Author: " + book1.author);
+        System.out.println("Year Published: " + book1.yearPublished);
+        System.out.println("Price: $" + book1.price);
+
+        System.out.println("\nBook 2:");
+        System.out.println("Title: " + book2.title);
+        System.out.println("Author: " + book2.author);
+        System.out.println("Year Published: " + book2.yearPublished);
+        System.out.println("Price: $" + book2.price);
+
+        System.out.println("\nBook 3:");
+        System.out.println("Title: " + book3.title);
+        System.out.println("Author: " + book3.author);
+        System.out.println("Year Published: " + book3.yearPublished);
+        System.out.println("Price: $" + book3.price);
+    }
+}
 
